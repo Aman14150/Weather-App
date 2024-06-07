@@ -96,6 +96,10 @@
                     weatherIcon.src = "assests/clouds.png";
                     weatherType.textContent = "Dust"
                     cardColor.style.background = "linear-gradient(0deg, rgba(170,137,114,1) 10%, rgba(251,134,0,1) 100%)";
+                }else if (data.weather[0].main == "Fog") {
+                    weatherIcon.src = "assests/fog.png";
+                    weatherType.textContent = "Fog"
+                    cardColor.style.background = "linear-gradient(0deg, rgba(142,142,142,1) 19%, rgba(255,255,255,1) 100%)";
                 } else {
                     weatherIcon.src = "assests/snow.png";
                     weatherType.textContent = "Snow"
